@@ -10,7 +10,7 @@ In this GitHub page, you'll find these folders:
 
 \
 Additionally, I used Google Earth Engine to calculate the average nighttime luminosity within each national subregion (as a proxy for local GDP). The Google Earth Engine scripts used for this analysis are as follows:
-  1. `gdp_pc` - this script was used for all national subregions NOT in Uganda. It can be found <span style="color:DeepSkyBlue">[here](https://code.earthengine.google.com/?scriptPath=users%2Fcharlesmcmurry%2Fthesis%3Agdp_pc)</span>.
+  1. `gdp_pc` - this script was used for all national subregions NOT in Uganda. It can be found <span style="color:deepskyblue">[here](https://code.earthengine.google.com/?scriptPath=users%2Fcharlesmcmurry%2Fthesis%3Agdp_pc)</span>.
   2. `gdp_pc (eastern uganda)` - this script was used for all national subregions in Eastern Uganda. It can be found [here](https://code.earthengine.google.com/?scriptPath=users%2Fcharlesmcmurry%2Fthesis%3Agdp_pc%20(eastern%20uganda)).
   3. `gdp_pc (northern uganda)` - this script was used for all national subregion in Northern Uganda. It can be found [here](https://code.earthengine.google.com/?scriptPath=users%2Fcharlesmcmurry%2Fthesis%3Agdp_pc%20(northern%20uganda)).
 
