@@ -28,6 +28,7 @@ You should be able to reproduce the results of my analysis as follows:
   4. Save and run the entire `master_script.R` script. Doing so should run all these scripts:
    * `load_data.R` - this script loads all of the datasets into R
    * `prep_data.R` - this script cleans the datasets and merges them into the final dataset used in this analysis
-   * `regressions.R` - this script runs all the regressions performed in this study
+   * `regressions.R` - this script runs all the regressions performed in this study 
+     Note that in R, filepaths use forward slashes (/) rather than backslashes (\).
     
   5. If everything worked properly, you should now be able to find the regression results (as HTML tables) in the location you used for `output_path`. If you are unable to get this to work, or if the results are different from how they appear in my paper, please contact me at the email address above.
