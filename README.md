@@ -3,7 +3,7 @@
 Hello! Welcome to the GitHub page for my 2021 paper, "Trust in Government and Lockdown Compliance in Sub-Saharan Africa." My name is Charles McMurry and I wrote this paper during my senior year at UC Berkeley as my senior thesis for the economics major. I hope you find this paper fascinating and informative. Please feel free to send any questions or comments you have about it to me at charlesmcmurry@berkeley.edu!
 
 \
-In this GitHub page, you'll find these folders:
+In this repository, you'll find these folders:
   * **Code** - R scripts I used to perform this analysis
   * **Documents** - codebooks and other information on the datasets I used
   * **Papers** - economic literature that informed this investigation
@@ -15,10 +15,10 @@ Additionally, I used Google Earth Engine to calculate the average nighttime lumi
   3. `gdp_pc (northern uganda)` - this script was used for all national subregion in Northern Uganda. It can be found [__here__](https://code.earthengine.google.com/?scriptPath=users%2Fcharlesmcmurry%2Fthesis%3Agdp_pc%20(northern%20uganda)).
 
 \
-You should be able to reproduce the results of my analysis by following these steps:
+You should be able to reproduce my regression results by following these steps:
   1. Download this repository by clicking the "Code" box at the top of this screen and selecting "Download ZIP." This should download a zip file titled "McMurry-2021-main". Unzip the file and keep track of where you extract it to, as you will need to know the location of the Code folder for step 3.
 
-  2. Download the Inputs folder as a zip file [__here__](https://drive.google.com/drive/folders/1z5aj1q4ZoSxWq6FmDAaHdJkt7zgmPrZl?usp=sharing). Unzip the file and keep track of where you extract it to, as you will need to know the location of the Inputs folder for step 3.
+  2. Download the Inputs folder [__here__](https://drive.google.com/drive/folders/1z5aj1q4ZoSxWq6FmDAaHdJkt7zgmPrZl?usp=sharing) as a zip file. Unzip the file and keep track of where you extract it to, as you will need to know the location of the Inputs folder for step 3.
 
   3. Open `master_script.R` (found in the Code folder) using RStudio. Under "3 - Set Directory Paths", change these variables as follows (keep in mind that in R, filepaths use forward slashes rather than backslashes):
    * `code_path` should equal the filepath of the Code folder you downloaded (as a string)
