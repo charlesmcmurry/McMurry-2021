@@ -15,12 +15,12 @@ Additionally, I used Google Earth Engine to calculate the average nighttime lumi
   3. `gdp_pc (northern uganda)` - this script was used for all national subregion in Northern Uganda. It can be found [__here__](https://code.earthengine.google.com/?scriptPath=users%2Fcharlesmcmurry%2Fthesis%3Agdp_pc%20(northern%20uganda)).
 
 \
-You should be able to reproduce the results of my analysis as follows:
+You should be able to reproduce the results of my analysis by following these steps:
   1. Download this repository by clicking the "Code" box at the top of this screen and selecting "Download ZIP." This should download a zip file titled "McMurry-2021-main". Unzip the file and keep track of where you extract it to, as you will need to know the location of the Code folder for step 3.
 
   2. Download the Inputs folder as a zip file [__here__](https://drive.google.com/drive/folders/1z5aj1q4ZoSxWq6FmDAaHdJkt7zgmPrZl?usp=sharing). Unzip the file and keep track of where you extract it to, as you will need to know the location of the Inputs folder for step 3.
 
-  3. Open `master_script.R` (found in the Code folder) using RStudio. Under "3 - Set Directory Paths", change these variables as follows:
+  3. Open `master_script.R` (found in the Code folder) using RStudio. Under "3 - Set Directory Paths", change these variables as follows (keep in mind that in R, filepaths use forward slashes rather than backslashes):
    * `code_path` should equal the filepath of the Code folder you downloaded (as a string)
    * `input_path` should equal the filepath of the Inputs folder you downloaded (as a string)
    * `output_path` should equal the filepath of where you would like the outputs of this code to be saved (as a string)
@@ -29,6 +29,5 @@ You should be able to reproduce the results of my analysis as follows:
    * `load_data.R` - this script loads all of the datasets into R
    * `prep_data.R` - this script cleans the datasets and merges them into the final dataset used in this analysis
    * `regressions.R` - this script runs all the regressions performed in this study 
-     Note that in R, filepaths use forward slashes (/) rather than backslashes (\).
     
   5. If everything worked properly, you should now be able to find the regression results (as HTML tables) in the location you used for `output_path`. If you are unable to get this to work, or if the results are different from how they appear in my paper, please contact me at the email address above.
