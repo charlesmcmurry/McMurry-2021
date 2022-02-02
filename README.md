@@ -16,9 +16,9 @@ Additionally, I used Google Earth Engine to calculate the average nighttime lumi
 
 \
 You should be able to reproduce the results of my analysis as follows:
-  1. Download this repository by clicking the "Code" box at the top of this screen and selecting "Download ZIP." You will need to unzip the folder once you download it. Keep track of where you extract the Code folder to, as you will need to know its location for step 3.
+  1. Download this repository by clicking the "Code" box at the top of this screen and selecting "Download ZIP." This should download a zip file titled "McMurry-2021-main". Unzip the file and keep track of where you extracted it to, as you will need to know the location of the Code folder for step 3.
 
-  2. Download the Inputs folder as a zip file [__here__](https://drive.google.com/drive/folders/1z5aj1q4ZoSxWq6FmDAaHdJkt7zgmPrZl?usp=sharing). You will need to unzip the folder once you download it. Keep track of where you extract the Inputs folder to, as you will need to know its location for step 3.
+  2. Download the Inputs folder as a zip file [__here__](https://drive.google.com/drive/folders/1z5aj1q4ZoSxWq6FmDAaHdJkt7zgmPrZl?usp=sharing). Unzip the file and keep track of where you extracted it to, as you will need to know the location of the Inputs folder for step 3.
 
   3. Open `master_script.R` (found in the Code folder) using RStudio. Under "3 - Set Directory Paths", change these variables as follows:
    * `code_path` should equal the filepath of the Code folder you downloaded (as a string)
