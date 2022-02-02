@@ -10,25 +10,25 @@ In this GitHub page, you'll find these folders:
 
 \
 Additionally, I used Google Earth Engine to calculate the average nighttime luminosity within each national subregion (as a proxy for local GDP). The Google Earth Engine scripts used for this analysis are as follows:
-  1. `gdp_pc` - this script was used for all national subregions NOT in Uganda. It can be found [<span style="color:red">here</span>](https://code.earthengine.google.com/?scriptPath=users%2Fcharlesmcmurry%2Fthesis%3Agdp_pc).
-  2. `gdp_pc (eastern uganda)` - this script was used for all national subregions in Eastern Uganda. It can be found [here](https://code.earthengine.google.com/?scriptPath=users%2Fcharlesmcmurry%2Fthesis%3Agdp_pc%20(eastern%20uganda)).
-  3. `gdp_pc (northern uganda)` - this script was used for all national subregion in Northern Uganda. It can be found [here](https://code.earthengine.google.com/?scriptPath=users%2Fcharlesmcmurry%2Fthesis%3Agdp_pc%20(northern%20uganda)).
+  1. `gdp_pc` - this script was used for all national subregions NOT in Uganda. It can be found [HERE](https://code.earthengine.google.com/?scriptPath=users%2Fcharlesmcmurry%2Fthesis%3Agdp_pc).
+  2. `gdp_pc (eastern uganda)` - this script was used for all national subregions in Eastern Uganda. It can be found [HERE](https://code.earthengine.google.com/?scriptPath=users%2Fcharlesmcmurry%2Fthesis%3Agdp_pc%20(eastern%20uganda)).
+  3. `gdp_pc (northern uganda)` - this script was used for all national subregion in Northern Uganda. It can be found [HERE](https://code.earthengine.google.com/?scriptPath=users%2Fcharlesmcmurry%2Fthesis%3Agdp_pc%20(northern%20uganda)).
 
 \
 You should be able to reproduce the results of my analysis as follows:
-  1. Download the Code folder.
+  1. Download the Code folder. You will need to unzip the folder once you download it. Keep track of where you extract the files to, as you will need to know their location for step 3.
 
-  2. Download the Inputs folder [here](https://drive.google.com/drive/folders/1z5aj1q4ZoSxWq6FmDAaHdJkt7zgmPrZl?usp=sharing) (it was too large to upload to GitHub). 
+  2. Download the Inputs folder as a zip file [HERE](https://drive.google.com/drive/folders/1z5aj1q4ZoSxWq6FmDAaHdJkt7zgmPrZl?usp=sharing). You will need to unzip the folder once you download it. Keep track of where you extract the files to, as you will need to know their location for step 3.
 
   3. Open `master_script.R` (found in the Code folder) using RStudio. Under "3 - Set Directory Paths", change these variables as follows:
    * `code_path` should equal the filepath of the Code folder you downloaded (as a string)
    * `input_path` should equal the filepath of the Inputs folder you downloaded (as a string)
    * `output_path` should equal the filepath of where you would like the outputs of this code to be saved (as a string)
 
-  3. Save and run the entire `master_script.R` script. Doing so should take a few minutes as it will run all these scripts:
+  4. Save and run the entire `master_script.R` script. Doing so should take a few minutes as it will run all these scripts:
    * `load_data.R` - this script loads all of the datasets into R
    * `prep_data.R` - this script cleans the datasets and merges them into the final dataset used in this analysis
    * `stats.R` - this script explores and visualizes the variables in the final dataset
    * `regressions.R` - this script runs all the regressions performed in this study
     
-  4. If everything worked properly, you should now be able to find all of the visualizations and regression results on your computer (at the address you used for `output_path`). If you are unable to get this to work, or if the results are different from how they appear in my paper, please contact me at the email address above.
+  5. If everything worked properly, you should now be able to find all of the visualizations and regression results on your computer (at the address you used for `output_path`). If you are unable to get this to work, or if the results are different from how they appear in my paper, please contact me at the email address above.
