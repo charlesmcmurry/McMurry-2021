@@ -6,7 +6,6 @@ Hello! Welcome to the GitHub page for my 2021 paper, "Trust in Government and Lo
 In this repository, you'll find these folders:
   * **Code** - R scripts I used to perform this analysis
   * **Documents** - codebooks and other information on the datasets I used
-  * **Papers** - economic literature that informed this investigation
 
 \
 Additionally, I used Google Earth Engine to calculate the average nighttime luminosity within each national subregion (as a proxy for local GDP). The Google Earth Engine scripts used for this analysis are as follows:
